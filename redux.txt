@@ -1,0 +1,9 @@
+Yeah.
+In React, control UI with state.
+we can setState() to change real time React Live Ui .
+But setState is not match with big and complex project.
+There are many state management js library such as mobx, redux, flux.
+Mobx is used in simple react app.
+We can use Redux in Complex React App.
+
+and then explain Redux tech in detail.
