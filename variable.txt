@@ -1,0 +1,22 @@
+let const var                                  (Global Scope)
+////////////////
+let arr = [];
+for (let i=0; i < 3; i++) {                     (Loop scope)
+arr.push(function () { return i });
+}
+let value = arr[0]();
+console.log(value); // 0
+
+Function Scope Block Scope.
+
+
+////////////////////////////
+In that example 
+
+Output is undefined.
+
+becauese freeze is in block scope.
+
+//////////////////////////
+
+realtime variable isCold make function to look like runtime function. 
