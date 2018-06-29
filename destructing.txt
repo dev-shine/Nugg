@@ -1,0 +1,8 @@
+//
+locations = ["new york", "washington", "berlin", "mexico"]
+const [location_one, location_2, location_3] = locations
+
+const citis = "List of Cities ................"
+
+Output.
+List of Cities 1. New York 2.Washington 3.Berlin
